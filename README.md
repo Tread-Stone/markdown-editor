@@ -1,4 +1,5 @@
 # Mardown Editor
+<img width="962" alt="Screen Shot 2021-11-09 at 7 05 56 PM" src="https://user-images.githubusercontent.com/61941978/141025464-c20a9ef6-5ad0-442a-9799-12c92f59759d.png">
 
 Run a Markdown editor on your local machine
 ## Usage 
