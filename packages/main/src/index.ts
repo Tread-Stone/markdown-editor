@@ -30,6 +30,7 @@ const createWindow = async () => {
   mainWindow = new BrowserWindow({
     show: false, // Use 'ready-to-show' event to show window
     vibrancy: 'under-window',
+    backgroundColor: '#252426',
     visualEffectState: 'active',
     webPreferences: {
       nativeWindowOpen: true,
@@ -47,7 +48,7 @@ const createWindow = async () => {
     mainWindow?.show();
 
     if (import.meta.env.MODE === 'development') {
-      mainWindow?.webContents.openDevTools();
+      // mainWindow?.webContents.openDevTools()
     }
   });
 

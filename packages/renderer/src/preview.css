@@ -1,5 +1,7 @@
 .preview.markdown-body {
-  flex: 0 0 50%;
+  flex: 0 0 0;  
+  width: 33%;
+  flex-grow: 1;
   padding: 12px;
   box-sizing: border-box;
   overflow: auto;
