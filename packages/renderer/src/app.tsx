@@ -20,7 +20,7 @@ const App: React.FC = () => {
 
   return (
     <div className='app'>
-      <Fzf />
+      <Fzf doc={doc} />
       <Editor onChange={handleDoc} initialDoc={doc} />
       <Preview doc={doc} />
     </div>
