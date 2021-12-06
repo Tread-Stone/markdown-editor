@@ -1,8 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import Editor from './editor'
-import Fzf from './fuzz'
 import Preview from './preview'
-import Middlebar from './middlebar';
 import './app.css'
 
 
