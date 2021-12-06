@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react'
 import Editor from './editor'
 import Fzf from './fuzz'
 import Preview from './preview'
+import Middlebar from './middlebar';
 import './app.css'
 
 
@@ -14,7 +15,6 @@ const App: React.FC = () => {
 
   return (
     <div className='app'>
-      <Fzf doc={doc} />
       <Editor onChange={handleDoc} initialDoc={doc} />
       <Preview doc={doc} />
     </div>
