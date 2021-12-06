@@ -14,7 +14,7 @@ const App: React.FC = () => {
 
   return (
     <div className='app'>
-      <Fzf onChange={handleDoc} initialDoc={doc} />
+      <Fzf doc={doc} />
       <Editor onChange={handleDoc} initialDoc={doc} />
       <Preview doc={doc} />
     </div>
